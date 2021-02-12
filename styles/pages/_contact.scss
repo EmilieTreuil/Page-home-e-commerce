@@ -1,0 +1,14 @@
+.contain-img {
+    display: flex;
+
+    img {
+        flex: 0 0 auto;
+    }
+}
+
+.contain-form {
+    background: $dark;
+    color: $light;
+    margin: 100px auto;
+
+}

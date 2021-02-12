@@ -1,0 +1,85 @@
+.btn {
+    font-size: 18px;
+    color: $dark;
+    padding: 10px 20px;
+    background: transparent;
+    transition: all 0.5s;
+    border-radius: 5px;
+    display: block;
+
+    &.ghost {
+        color: $dark;
+        border: 1px solid $dark;
+        &:hover {
+            color: $light;
+            background: $dark;
+        }
+
+        &.white {
+            color: $light;
+            border: 2px solid $light;
+
+            &:hover {
+                color: $dark;
+                background: $light;
+            }
+        }
+    }
+}
+
+.link {
+    position: relative;
+
+    &::after{
+        content: "";
+        background: $light;
+        mix-blend-mode: exclusion;
+        width: calc(100% + 20px);
+        height: 0;
+        position: absolute;
+        bottom: -4px;
+        left: -10px;
+        transition: all .3s ease-in-out;
+      }
+      
+      &:hover::after{
+          height: calc(100% + 8px);
+      }
+}
+
+.active {
+    color: $light;
+    background: $dark;
+    padding: 4px 10px;
+}
+
+.mail {
+    border: 2px solid $light;
+    padding: 10px 20px;
+    font-size: 18px;
+    width: 10vw;
+    color: $light;
+    background: transparent;
+
+    @media screen and (max-width: 1023px) {
+        width: 30vw;
+                      
+    }
+
+    @media screen and (max-width: 767px) { 
+        width: 50vw;
+    }
+
+    &::placeholder {
+        color: $light;
+    }
+}
+
+input {
+    border: 2px solid $light;
+    padding: 10px 20px;
+    font-size: 18px;
+    width: 10vw;
+    color: $dark;
+    background: $light;
+}

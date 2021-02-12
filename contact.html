@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naturæ</title>
+    <!-- FAVICON -->
+    <link rel="icon" href="assets/logo/lotusv1.svg" />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/app.css">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/462225f394.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- LOGO + BARRE DE NAVIGATION -->
+    <header class="head-container">
+
+        <a href="index.html">
+            <div class="logo-container">
+                <div class="logo">
+                        <img src="assets/logo/lotusv1.svg" alt="Logo Naturae">
+                </div>
+                <div>
+                    <h3 class="logo-title">Naturæ</h3>
+                </div>
+            </div>
+        </a>
+
+        <nav class="burger">
+            <a href="javascript:void(0);" onclick="myFunction()"><i class="fas fa-bars"></i></a>
+        </nav>
+
+        <nav>
+            <ul class="nav-container" id="myLinks">
+                <li><a href="index.html" class="link">Accueil</a></li>
+                <li><a href="#" class="link">Produit</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="#" class="link"><i class="fas fa-user"></i> Se connecter</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <main>
+
+        <section class="contain-img">
+            <img src="assets/img/rose-rose.jpg" alt="">
+        </section>
+
+        <section class="wrap-resp contain-form">
+            <form action="#">
+                <label for="Nom et Prénom">Nom et Prénom</label>
+                <input type="text">
+                <label for="email">Votre email</label>
+                <input type="email">
+                <label for="message">Votre message</label>
+                <input type="textarea" class="area"></input>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </section>
+
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="foot-container">
+
+        <div class="contain-spacebet">
+            <div class="logo-container">
+                <div class="logo">
+                        <img src="assets/logo/lotusv1.svg" alt="Logo Naturae">
+                </div>
+                <div>
+                    <h3 class="logo-title">Naturæ</h3>
+                </div>
+            </div>
+
+            <div class="contain-contact">
+                <h3 class="sm-title">Nous contacter :</h3>
+                <p>naturae@gmail.com</p>
+            </div>
+        </div>
+
+
+        <div>
+            <ul class="container-rs">
+                <p>Suivez nous sur les réseaux</p>
+                <li><a href="#" class="link"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" class="link"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="link"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="mentions">
+            <p>Site réalisé par Emilie TREUIL © 2020</p>
+            <a href="#" class="link">Mentions légales</a>
+        </div>
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

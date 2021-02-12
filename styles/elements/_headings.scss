@@ -1,0 +1,56 @@
+.logo-title {
+    font-family: 'Pacifico';
+    font-size: 40px;
+    color: $dark;
+}
+
+.main-title {
+    font-size: 75px;
+    font-family: 'Pacifico';
+    color: $light;
+
+    @media screen and (max-width: 1023px) {
+        font-size: 50px;        
+    }
+
+    @media screen and (max-width: 767px) {
+        font-size: 25px;        
+    }
+
+    &.dark {
+        color: $dark;
+    }
+}
+
+.mid-title {
+    font-size: 30px;
+    color: $light;
+
+    @media screen and (max-width: 1023px) {
+        font-size: 20px;
+                      
+    }
+
+    &.handwriting {
+        font-family: 'Pacifico';
+    }
+
+    &.border {
+        border: 1px solid $light;
+        padding: 10px 20px;
+    }
+}
+
+.sm-title {
+    font-weight: $bold;
+}
+
+.paragraphe {
+    font-size: 16px;
+    color: $light;
+}
+
+.label {
+    color: $light;
+    font-size: 20px;
+}

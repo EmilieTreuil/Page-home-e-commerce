@@ -1,0 +1,16 @@
+// FONT
+$font : 'Oxygen';
+
+// GRAISSE
+$lgt: 300;
+$regular : 400;
+$bold : 700;
+
+* {
+    font-family: $font;
+}
+
+body {
+    font-size : 16px;
+
+}

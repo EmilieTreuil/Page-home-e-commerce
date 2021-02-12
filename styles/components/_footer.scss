@@ -1,0 +1,78 @@
+.foot-container {
+    background: $light;
+    height: 28vh;
+    padding: 50px;
+
+    @media screen and (max-width: 767px) { 
+        height: 55vh;      
+    }
+
+
+    .contain-spacebet { 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media screen and (max-width: 767px) { 
+            flex-wrap: wrap;        
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+
+            @media screen and (max-width: 767px) { 
+                flex: 0 0 100%;       
+            }
+    
+            .logo {
+                flex: 0 0 40%;
+
+            }
+    
+        }
+
+        .contain-contact {
+            display: block;
+
+            @media screen and (max-width: 767px) { 
+                margin-bottom: 5%;    
+            }
+        }
+    }
+
+    .container-rs {
+        display: flex;
+        justify-content: flex-end;
+
+        @media screen and (max-width: 767px) { 
+            flex: 0 0 100%;     
+            margin-bottom: 5%;  
+        }
+
+        a {
+            margin-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        i {
+            font-size: 25px;
+        }
+    }
+
+    .mentions {
+        display: flex;
+        justify-content: center;
+
+        @media screen and (max-width: 767px) { 
+            flex: 0 0 100%;       
+        }
+
+        p {
+            margin-right: 25px;
+        }
+
+    }
+
+
+}

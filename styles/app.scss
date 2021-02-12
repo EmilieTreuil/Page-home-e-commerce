@@ -1,0 +1,36 @@
+// @import 'chemin/nomdufichier';
+
+//  &.maclass = & est une condition en plus
+
+// nom pour fichier secondaire : _nomdufichier.scss
+
+// ranger les fichiers par priorités 
+// elements - priorité 1 (la + forte prio)
+// components - priorité 2
+// pages - priorité 3
+
+// @mixin nomdelafonction()
+// on appelle la fonction avec @include nomdelafonction();
+
+// @extend .class > étendre une classe (pour éviter les c/c/répétitions)
+
+// OUTILS
+@import 'tools/mixin';
+@import 'tools/reset';
+@import 'tools/fonts';
+@import 'tools/colors';
+
+
+// ELEMENTS - boutons, titre, etc....
+@import 'elements/button';
+@import 'elements/headings';
+
+
+// COMPONENTS - header, main, etc....
+@import 'components/containers';
+@import 'components/header';
+@import 'components/footer';
+
+// PAGES
+@import 'pages/index';
+@import 'pages/contact';
